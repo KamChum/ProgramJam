@@ -1,6 +1,9 @@
 import time
 import random
 
+def random_choice():
+    rps_list = ["rock", "paper", "scissors"]
+    return rps_list[random.randint(0, 2)]
 
 def game():
     rps_list = ["rock", "paper", "scissors"]
